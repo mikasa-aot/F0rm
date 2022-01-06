@@ -1,0 +1,154 @@
+
+         ::placeholder {
+            color: black;
+            opacity: 1;
+        }
+
+html {
+           background: #6998AB;
+           color: white;
+           font-family: 'Comic Neue', cursive;
+       }
+
+       body {
+           padding-top: 0;
+       }
+
+h2 {text-decoration: underline;
+
+}
+.header {background-color: #DB1D0E0;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: -3px -2px 6px #1A374D, 7px 9px 25px #0b0b0b;
+}
+       .container {
+           background: #406882;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           margin: auto;
+           height: 465px;
+           width: 350px;
+           box-shadow: -3px -2px 6px #1A374D, 7px 9px 25px #0b0b0b;
+       }
+
+       form {
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+       }
+
+       input {
+           height: 30px;
+           border: 2px solid #1A374D;
+           border-radius: 5px;
+           background: #B1D0E0;
+           color: black;
+           text-align: center;
+           outline:  none;
+           font-size: 15px;
+       }
+
+       .form-item-username {
+           margin: 5px;
+           display: flex;
+           padding-bottom: 10px;
+       }
+
+       .form-item-username input {
+           width: 150px;
+           margin: 0 5px;
+       }
+
+       .form-item {
+           margin: 0 auto;
+           padding-bottom: 10px;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           width: 90%;
+       }
+
+       .form-item input {
+           margin: 5px;
+           width: 100%;
+       }
+
+       .accept-box {
+           display: flex;
+           align-items: center;
+           margin: auto;
+           font-size: 15px;
+       }
+
+       a {
+           color: white;
+       }
+
+       a:hover {
+           color: #B1D0E0;
+       }
+
+       .form-btns {
+           display: flex;
+           flex-direction: column;
+           padding: 10px 0;
+       }
+
+       .form-btns button {
+           margin: auto;
+           font-size: 20px;
+           padding: 8px;
+           width: 280px;
+           border: none;
+           border-radius: 5px;
+           cursor: pointer;
+           color:black;
+           background: #B1D0E0;
+       }
+
+
+
+       .form-btns button:hover {
+           background: #FF7272;
+           color: antiquewhite;
+       }
+
+       .options {
+           padding-top: 15px;
+           margin: auto;
+           font-size: 13px;
+       }
+
+       p {
+           font-size: 12px;
+       }
+
+       .pwd-format {
+           position: relative;
+           color: #406882;
+           background: #B1D0E0;
+           font-size: 11px;
+           width: 150px;
+           padding: 5px;
+           border-radius: 5px;
+           top: 112px;
+           right: -81px;
+           z-index: 2;
+           display: none;
+       }
+
+.footer{background-color: #DB1D0E0;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: -3px -2px 6px #1A374D, 7px 9px 25px #0b0b0b;
+}
+
+.he1 {font-family: 'Comic Neue', cursive;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+}
