@@ -1,84 +1,67 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+  <script src="function.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,300&display=swap" rel="stylesheet">
+    <title>Sign UP</title>
+  </head>
+  <body>
 
-<head>
-  <meta charset="utf-8">
-  <title>Maria's Website</title>
-</head>
-  <body style="background-color:blue;">
-<table cellspacing="20">
-  <td><img src="images/charlie.png" width="250px" height="300px" alt="My dog"></td>
-  <td>
-    <h1> Charlies CV</h1>
-    <p>He is energetic and enthusiastic in everything he does and remains on alert, even in repose. This breed's temperament is described as tough, courageous, tenacious (read: stubborn), and curious. A people-loving personality makes him a good caretaker of his family, but he's less likely to be protective of property. </p>
-  </td>
+<div class="header">
+<h1>💕Sign up to my site <span class="he1">Today!</span>💕</h1>
+</div>
 
-</table>
+    <div class="container">
+        <h2>Sign Up</h2>
 
-<hr>
-<h3>Education</h3>
+        <form action="">
+            <div class="form-item-username">
+                <input type="text" name="firstName" id="firstName" placeholder="First Name">
+                <input type="text" name="lastName" id="lastName" placeholder="Last Name">
+            </div>
 
-<ul>
-  <li>Puppy training</li>
-  <ul>
-    <li>Class of 2016</li>
-  </ul>
-</ul>
-<ul>
-  <li>Dogs trust doggy training <ul>
-      <li>Class of 2017</li>
-    </ul>
-</ul>
+            <div class="form-item">
+                <input type="email" name="email" id="email" placeholder="Email">
+            </div>
 
-<hr>
-<h3>Experience</h3>
-<table cellspacing="10px">
-  <thead>
-    <tr>
-      <th>Dates</th>
-      <th>Work</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>2016-2022</td>
-      <td>Doggy Growth</td>
-    </tr>
-    <tr>
-      <td>2016</td>
-      <td>Born March 22</td>
-    </tr>
-  </tbody>
-</table>
+            <div class="form-item">
+                <!-- add a password format display -->
+                <span class="pwd-format">
+                    8-15 AlphaNumeric Characters
+                </span>
+                <input type="password" name="password" id="password" placeholder="Enter password">
+                <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm password">
+            </div>
 
-<hr>
-<h3>Skills</h3>
+            <div class="accept-box">
+                <input type="checkbox" name="accept" id="accept">
+                <p>I accept the <a href="#">Terms & Conditions</a></p>
+            </div>
 
-      <table cellspacing="10px">
-        <tbody>
-          <tr>
-            <td>Licking</td>
-            <td>⭐⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>Running</td>
-            <td>⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>Eating</td>
-            <td>⭐⭐</td>
-          </tr>
-        </tbody>
+            <div class="form-btns">
+                <button class="signup" type="submit" disabled>Sign Up</button>
+                <div class="options">
+                    Already hav an account? <a href="#">Login here</a>
+                </div>
+            </div>
 
-</table>
+        </form>
+  
+    </div>
 
 
 
 
-<hr>
-<br>
-  <a href="hobbies.html">My Hobbies</a>
-<a href="contact.html">Contact Info</a>
+    <div class="footer">
+<h1>Thank you for visiting my site!!</h1>
+    </div>
+
+
+
 
   </body>
 </html>
